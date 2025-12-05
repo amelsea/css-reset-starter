@@ -1,6 +1,7 @@
 
 
 
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -89,6 +90,7 @@ header, footer{
     background-color: var(--mint);
 }
 
+
 /* Navigation Styles */
 nav{
     width: 50%;
@@ -123,6 +125,31 @@ main > section{
     padding: 1rem 0;
 }
 
+h1 {
+    font-size: 2.25rem;
+    text-align: center;
+    font-weight: bold;
+    color: var(--dk-gray);
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    font-size: 1.6rem;
+    text-align: center;
+    font-weight: bold;
+    color: var(--dk-gray);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+    text-align: left;
+    font-weight: bold;
+    color: var(--dk-gray);
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
 /* Styles for the h2 & h3 tags */
 h2, h3{
     text-align: center;
